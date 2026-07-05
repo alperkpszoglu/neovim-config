@@ -6,7 +6,7 @@ return {
 	opts = {
 		variant = "auto", -- auto, main, moon, or dawn
 		styles = {
-			transparency = true,
+			transparency = false,
 		},
 	},
 	config = function(_, opts)
