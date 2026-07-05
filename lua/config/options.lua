@@ -30,3 +30,6 @@ vim.opt.updatetime = 50
 
 vim.opt.scrolloff = 8
 
+-- Auto-source project-local .nvim.lua files (e.g. dap.configurations.cs per project)
+vim.opt.exrc = true
+
